@@ -1,0 +1,30 @@
+:root {
+    --font-size: 16px;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+
+
+    --space-200: 16px;
+    --space-150: 12px;
+    --space-100: 8px;
+    --space-50: 4px;
+
+    --green: hsl(75, 94%, 57%);
+
+    --white: hsl(0, 0%, 100%);
+
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+
+
+
+
+body {
+    background-color: var(--black);
+}

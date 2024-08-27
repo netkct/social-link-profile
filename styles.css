@@ -2,9 +2,7 @@
     --font-size: 16px;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-
-    --white: hsl(0, 0%, 100%);
-    --black: hsl(0, 0%, 0%);
+    --font-name: 16px;
 
 
     --space-200: 16px;
@@ -26,5 +24,87 @@
 
 
 body {
-    background-color: var(--black);
+    background-color: var(--grey-900);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: var(--grey-800);
+    width: 270px;
+    height: 405px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    border-radius: 5px;
+}
+
+
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+    img {
+        border-radius: 360px;
+        height: 50px;
+    }
+}
+
+.name {
+    color: var(--white);
+    font-size: var(--font-name);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 9px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(179, 179, 179);
+    font-size: 10px;
+    margin: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(225, 225, 225);
+    background-color: rgb(55, 55, 55);
+    height: 30px;
+    width: 80%;
+    margin: 12px;
+    border-radius: 5px;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+
+}
+
+.button:hover {
+    background-color: var(--green);
+    color: rgb(49, 49, 49);
+    font-weight: 600;
+
 }
